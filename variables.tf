@@ -9,3 +9,7 @@ variable "vpc_cidr" {
 variable "instance_type" {
   default = "t3.micro"
 }
+
+variable "db_instance_class" {
+  default = "db.t3.micro"
+}
